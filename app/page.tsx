@@ -78,7 +78,7 @@ export default function Home() {
             width={16}
             height={16}
           />
-          예시 변경사항!
+          전 예시는 트리거를 싱크 안하고 바로 바꿔서 적용이 안됨 이건 되야함
         </a>
         <a
           className='flex items-center gap-2 hover:underline hover:underline-offset-4'
