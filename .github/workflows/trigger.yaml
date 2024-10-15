@@ -1,0 +1,13 @@
+name: Trigger sync
+
+on:
+  repository_dispatch:
+    types: [main_updated]
+
+jobs:
+  trigger-sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: trigger sync
+        run: echo "Triggered sync"
