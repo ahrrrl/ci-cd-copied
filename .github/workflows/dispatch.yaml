@@ -1,0 +1,14 @@
+name: Dispatch Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  trigger-fork:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Echo message
+        run: echo "main branch pushed"
